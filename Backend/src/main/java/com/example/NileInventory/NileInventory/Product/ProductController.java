@@ -26,7 +26,6 @@ public class ProductController {
 
     @PostMapping(path="product")
     public Product GetProduct(@RequestBody Product product){
-
         return this.productService.GetProduct(product);
     }
     @PostMapping
