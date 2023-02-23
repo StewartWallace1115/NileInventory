@@ -29,9 +29,9 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
     - name: Test Directory
-      run: dir
+      run: ls
     - name: Build with Gradle
       run : ./gradlew build
-      working-directory: backend
+      working-directory: Backend
 
     
