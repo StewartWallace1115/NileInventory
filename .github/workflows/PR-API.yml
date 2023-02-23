@@ -28,6 +28,8 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
+    - name: Test Directory
+      run: dir
     - name: Build with Gradle
       run : ./gradlew build
       working-directory: backend
