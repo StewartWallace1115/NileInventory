@@ -30,6 +30,6 @@ jobs:
         distribution: 'temurin'
     - name: Build with Gradle
       run : ./gradlew build
-      working-directory: ./backend
+      working-directory: backend
 
     
