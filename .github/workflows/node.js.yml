@@ -10,9 +10,11 @@ on:
     branches: [ "StewartWallace1115-patch-3" ]
 
 jobs:
-  build:
-
+  build: 
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Frontend/nile-inventory
 
     strategy:
       matrix:
